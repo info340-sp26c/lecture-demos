@@ -1,0 +1,31 @@
+header {
+  font-family: 'Helvetica';
+  color: white;
+  background-color: rebeccapurple;
+  padding: .5em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  color: rebeccapurple;
+}
+
+p {
+  font-size: 18px;
+}
+
+img {
+  max-height: 150px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+/* elements with class="about-section" */
+.about-section {
+  background-color: #eee;
+  padding: .25em .5em;
+}
+
+/* img:hover, img:focus {
+  box-shadow: 0 0 5px 5px rgba(0,0,0,.2);
+} */
