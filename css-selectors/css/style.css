@@ -29,3 +29,11 @@ img {
 /* img:hover, img:focus {
   box-shadow: 0 0 5px 5px rgba(0,0,0,.2);
 } */
+
+/* .list-section li:nth-child(even) {
+  color: blue;
+} */
+
+/* .list-section li:nth-child(odd) {
+  color: green;
+} */
