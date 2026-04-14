@@ -1,0 +1,124 @@
+/* general styling */
+h1,
+h2,
+h3 {
+    font-family: 'Helvetica';
+
+    /* Example 1 */
+    /* font that doesn't exist */
+    /* font-family: 'Fakevetica'; */
+
+    /*font that doesn't exist, but fall back on a sans-serif font (maybe helvetic)*/
+    /* font-family: 'Fakevetica', sans-serif; */
+    /* After i've added the google font from the internet (and added the link in my html file) */
+    /* font-family: 'Fakevetica', 'Open Sans', sans-serif;  */
+
+    }
+
+
+/*  these are the 5 built in fonts
+serif
+sans-serif
+monospace
+cursive
+fantasy */
+
+h2 {
+    color: rebeccapurple;
+}
+
+
+/* nav bar */
+nav {
+    color: white;
+    background-color: #4b2e83;
+}
+
+nav a {
+    color: white;
+}
+
+/* how to make our li elements into inline or inline-block*/
+nav li {
+
+    font-weight: 200px;
+
+    /* Example 2 - make it inline */
+    /* display: inline;
+    width: 200px;
+    height: 50px; */
+    
+    /* Example 3 */
+    /* display: inline-block;
+    width: 200px;
+    height: 50px; */
+    
+
+    /* Example 3a */
+    /* Show you can set width and height if you use inline-block */
+
+    /* width: 200px;
+    height: 75px; */
+
+    /* Example 3b - make it look nicer */
+    /* adding border; */
+
+ /* border: 5px double white;
+    margin: 10px;
+    padding: 10px;  */
+}
+
+/* about section */
+.about {
+    background-color: #f8f8f8;
+
+    /* Example 4 - show where padding, border margin are */
+    /* adding padding */
+
+    /* padding: 1em; */
+
+    /* adding border */
+
+    /* border: 3px dashed rebeccapurple; */
+
+    /* adding margin */
+
+    /* margin: 1em; */
+}
+
+
+/* job cards */
+.jobs .card {
+    border: 1px solid black;
+}
+
+.jobs img {
+    max-width: 150px;
+}
+
+/* Example 5 demo of last child psuedo selector */
+
+/* .jobs .card:last-child {
+    border-bottom: 5px solid black;
+} */
+
+/* Example 6 demo of nth-child */
+/* .jobs .card:nth-child(odd) {
+    background-color: aliceblue;
+} */
+
+/* other */
+footer {
+    font-size: smaller;
+}
+
+/* Example 7 - see how using percentages can be unintuitive */
+/* fun example using font percentage */
+
+/* html {
+    font-size: 62.5%
+}
+
+span {
+    font-size: 1.6rem;
+} */
