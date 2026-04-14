@@ -1,0 +1,100 @@
+/* general styling */
+h1,
+h2,
+h3 {
+    font-family: 'Helvetica';
+}
+
+h2 {
+    color: rebeccapurple;
+}
+
+
+/* nav bar */
+nav {
+    color: white;
+    background-color: #4b2e83;
+}
+
+nav a {
+    color: white;
+}
+
+
+nav li {
+
+    display: inline-block;
+    border: 1px solid white;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* if we want to use flexbox instead to style menu */
+/* nav ul {
+    display: flex;
+    justify-content: space-around;
+} */
+
+
+/* Example 3 - turn the whole thing into side by side columns! */ 
+main {
+    display: flex;
+    align-items: center;
+} 
+
+/* about section */
+.about {
+    background-color: #f8f8f8;
+    flex-basis: 40%;
+    order: 2;
+    margin-left: 2em;
+
+}
+
+
+/* course cards */
+.jobs .card {
+    border: 1px solid black;
+    margin: .25em;
+}
+
+.jobs img {
+    max-width: 150px;
+}
+
+/* Example 1 my flexbox pool */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+
+}
+
+/* Example 2 properties the cards in the flexbox use */
+.jobs .card {
+    flex-grow: 1;
+    flex-basis: 300px;
+/* make the card also a pool! */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Example 1a - show how you can have certain elements in a flexbox pool grow more than others */
+
+.jobs .card.microsoft {
+    flex-grow: 5;
+    /* flex-grow: 0; */
+    /* flex-grow: 1; */
+}
+
+/* Example 1b  */
+/* last one doesn't grow to fill if we want */
+.jobs .card:last-child {
+    flex-grow: 0;
+    
+}
+
+footer {
+    font-size: smaller;
+}
