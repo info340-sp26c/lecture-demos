@@ -1,8 +1,8 @@
 
 
-/* * {
+* {
     box-sizing: border-box;
-} */
+}
 
 /* general styling */
 h1,
@@ -47,19 +47,19 @@ nav li {
 
 /* Example 3 - turn the whole thing into side by side columns! */ 
 
-/* main {
+main {
     display: flex;
     align-items: center;
-}  */
+} 
 
 /* about section */
-/* .about {
+.about {
     background-color: #f8f8f8;
     flex-basis: 40%;
     order: 2;
     margin-left: 2em;
 
-} */
+}
 
 
 /* End of example 3 */
@@ -68,7 +68,7 @@ nav li {
 /* course cards */
 .jobs .card {
     border: 1px solid black;
-    margin: .25em;
+    /* margin: .25em; */
 }
 
 .jobs img {
@@ -82,7 +82,9 @@ nav li {
 
 .card-container {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    /* flex-direction: row-reverse; */
 
 }
 
@@ -90,13 +92,13 @@ nav li {
 
 /* Example 2 properties the cards in the flexbox use */
 
-/* .jobs .card {
+.jobs .card {
     flex-grow: 1;
     flex-basis: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
-} */
+}
 
 /* End of Example 2 */
 
@@ -123,9 +125,9 @@ nav li {
 /* Example 1c - show how box-sizing:borderbox fixes when padding and margin interfere with size */
 /* don't forget to remove the margin above on the .job .card */
 
-/* .card {
-    flex-basis:  50%;
-} */
+.card {
+    flex-basis:  25%;
+}
 
 
 footer {

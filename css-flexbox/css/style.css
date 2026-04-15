@@ -2,7 +2,8 @@
 h1,
 h2,
 h3 {
-    font-family: 'Helvetica';
+    font-family: 'opensans', sans-serif;
+    font-size: .5em;
 
     /* Example 1 */
     /* font that doesn't exist */
@@ -31,7 +32,7 @@ h2 {
 /* nav bar */
 nav {
     color: white;
-    background-color: #4b2e83;
+    background-color: rebeccapurple;
 }
 
 nav a {
@@ -41,13 +42,13 @@ nav a {
 /* how to make our li elements into inline or inline-block*/
 nav li {
 
-    font-weight: 200px;
+    font-weight: 400;
 
     /* Example 2 - make it inline */
-    /* display: inline;
-    width: 200px;
-    height: 50px; */
-    
+    display: inline-block;
+     width: 100px;
+    height: 50px; 
+     
     /* Example 3 */
     /* display: inline-block;
     width: 200px;
@@ -63,9 +64,9 @@ nav li {
     /* Example 3b - make it look nicer */
     /* adding border; */
 
- /* border: 5px double white;
+    border-right: 3px dashed white;
     margin: 10px;
-    padding: 10px;  */
+    padding: 10px; 
 }
 
 /* about section */
@@ -115,10 +116,10 @@ footer {
 /* Example 7 - see how using percentages can be unintuitive */
 /* fun example using font percentage */
 
-/* html {
+html {
     font-size: 62.5%
 }
 
 span {
-    font-size: 1.6rem;
-} */
+    font-size: 1.6em;
+}
