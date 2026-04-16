@@ -1,0 +1,16 @@
+html {
+    font-size: 40px;
+}
+
+div {
+    font-size: 50px;
+}
+
+.thingb {
+    font-size: .5em;
+}
+
+.thingc {
+    font-size: 1rem;
+}
+
