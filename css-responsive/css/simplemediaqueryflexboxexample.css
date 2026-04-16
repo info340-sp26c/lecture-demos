@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+/* on devices 768px OR WIDER */
+@media (min-width: 768px)
+{
+    .row { /* row is a flexbox container */
+        display: flex;
+        flex-wrap: wrap; /* wrap extra items to the next "line" */
+    }
+
+    .column  { /* column is a flexbox item */
+        background-color: orange;
+        border: 5px solid rebeccapurple;
+
+        flex-basis: 50%; /* columns take up 50% of parent by default */
+        /* flex-grow: 1; */
+    }
+}
+
+@media (min-width: 1200px) {
+    .column {
+        flex-basis: 33%; /* columns are automatically sized based on content */
+    }
+}
