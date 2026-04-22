@@ -5,7 +5,7 @@
 
 // console.log("The days are getting longer")
 
-// // // Slide 16 - dynamically typed
+// // // // Slide 16 - dynamically typed
 //  let myDogName = "Jovie";
 //  console.log(myDogName);
 //  console.log(typeof(myDogName));
@@ -14,9 +14,12 @@
 //  console.log(myDogName);
 //  console.log(typeof(myDogName));
 
-//  //create a variable (not assigned)
+// //  //create a variable (not assigned)
 // let hoursSlept; 
 // console.log(hoursSlept); //=> undefined
+// hoursSlept = 8;
+// console.log(hoursSlept); //=> 8
+// console.log(typeof(hoursSlept)); //=> number
 
 //  let hoursSlept = ['a', 'b', 'c'];
 //  console.log(hoursSlept);
@@ -54,6 +57,7 @@
 // const things = ['raindrops', 2.5, true, [3,4,3]]; //mix types
 // console.log(letters[0]); //'a'
 // console.log(letters[4]); //undefined
+
 // letters[5] = 'f'; //assigning out of bounds grows array
 // console.log(letters); //['a', 'b', 'c', , , 'f']
 // letters.push('z'); //arrays have methods as well
@@ -76,10 +80,11 @@
 //     ['portobello steak', 'rice', 'green beans']
 // ];
 
-// console.log(dinnerOptions.length); //4
-// console.log(dinnerOptions[2][0])
+// // console.log(dinnerOptions.length); //4
+// // console.log(dinnerOptions[2][0])
 
 // const fishOption = dinnerOptions[2]; // ['fish', 'rice', 'green beans']
+// console.log(fishOption);
 
 // console.log(fishOption.length); //3
 
@@ -120,7 +125,7 @@
 // console.log(var1, var2, var3, var4);
 // console.log(var1 + " " + var2 + var3 + var4);
 
-// // Slide 22
+// // // Slide 22
 // const ages = {'sarah':42, amit:35, zhang:13};
 
 // const myVar = 'sarah';
@@ -135,12 +140,12 @@
 // const englishToSpanish = {one:'uno', two:'dos'}
 
 
-// const numWords = {1:'one', 2:'two', 3:'three', 4:'four'};
+const numWords = {dog:'one', cate:'two', bird:'three', fish:'four'};
 
-// const mykeys = Object.keys(numWords) //[ '1', '2', '3' ]
+const mykeys = Object.keys(numWords) //[ '1', '2', '3' ]
 
-// console.log(numWords);
-// console.log("myKeys:", mykeys); //see they are all strings even if you make them numerals. the keys are always strings in jscript
+console.log(numWords);
+console.log("myKeys:", mykeys); //see they are all strings even if you make them numerals. the keys are always strings in jscript
 
 // //mixed values
 // const typeExamples = {'int':12, 'str':'dog', 'list':[1,2]}
