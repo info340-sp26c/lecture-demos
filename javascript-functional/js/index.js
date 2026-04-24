@@ -22,8 +22,14 @@
 // const favFood = person['favorites'][chosenValue]; //object in the object
 //                 //object           //value
 
+//                 console.log(favFood); //pizza
+
 // const firstNumber = person['favorites']['numbers'][0]; //12
+
+// console.log(firstNumber); //12
+
 // person['favorites']['numbers'].push(7); //push 7 onto the Array
+// console.log(person['favorites']['numbers']); //[12, 42, 7]
 
 // // review - Accessing object properties with dot notation
 // const person = {
@@ -42,8 +48,9 @@
 // console.log(person.firstName+' '+person.lastName); //"Alice Jones"
 
 // const chosenValue = "food" //e.g., from user input
-// const favFood = person.favorites.chosenValue; //undefined!!
+// const favFood = person.favorites[chosenValue]; //undefined!!
 //               //object         //value
+// console.log(favFood); //undefined
 
 // const firstNumber = person.favorites.numbers[0]; //12
 // person.favorites.numbers.push(7); //push 7 onto the Array
@@ -58,7 +65,7 @@
 //     {name: 'Emma', height: 71, weight: 152}
 // ]
 
-// console.log("people :", people);
+// console.log("people :", people, people[0].name, people[1].name); //people is an array of objects, so we can access the name of the first person with people[0].name
 
 // //review - contitionals
 // const outsideTemperature = 72;
@@ -93,13 +100,13 @@
 
 
 
-const peopleArray = [
-  {name: 'Ada', height: 64, weight: 135},
-  {name: 'Bob', height: 74, weight: 156, pronoun: 'they/them'},
-  {name: 'Chris', height: 69, weight: 139},
-  {name: 'Diya', height: 69, weight: 144},
-  {name: 'Emma', height: 71, weight: 152}
-]
+// const peopleArray = [
+//   {name: 'Ada', height: 64, weight: 135},
+//   {name: 'Bob', height: 74, weight: 156, pronoun: 'they/them'},
+//   {name: 'Chris', height: 69, weight: 139},
+//   {name: 'Diya', height: 69, weight: 144},
+//   {name: 'Emma', height: 71, weight: 152}
+// ]
 
 // console.log("peopleArray :", peopleArray);
 // console.log("typeof peopleArray: ", typeof peopleArray);
@@ -115,10 +122,10 @@ const peopleArray = [
 // const other = myArray;
 
 // console.log("other :", other);
-// console.log("typeof other: ", typeof other);
+// // console.log("typeof other: ", typeof other);
 
-// //access value in other
-// console.log( other[1] ); //print 'b'
+// // //access value in other
+// // console.log( other[1] ); //print 'b'
 
 // //assign function to variable
 // function sayHello(name) { 
@@ -135,7 +142,8 @@ const peopleArray = [
 // sayHello('everyone');
 // other1('everyone'); 
 
-
+// const sayHello = function(person) {
+//    console.log("Hello, "+person);
 
 // // Slide 11 Functions  literals
 // const array = [1,2,3]; //named variable (not anonymous)
@@ -148,10 +156,10 @@ const peopleArray = [
 // //   console.log("Hello, "+person); 
 // // }
 
-// // //anonymous function (no name! so in this state its invalid) 
-// // function (person) {
-// //   console.log("Hello, "+person);
-// // }
+// //anonymous function (no name! so in this state its invalid) 
+// function (person) {
+//   console.log("Hello, "+person);
+// }
 
 // //anonymous function (value) assigned to variable
 // const sayHello = function(person) {
@@ -180,8 +188,8 @@ const peopleArray = [
 // //access (run) with dot notation
 // obj.sayHi('all'); //prints "Hello all"
 
-// //here's the object. It has the one function we assigned above
-// console.log("obj : ", obj);
+// // //here's the object. It has the one function we assigned above
+// // console.log("obj : ", obj);
 
 
 // //Now assign another function as a literal (anonymous value)
@@ -195,7 +203,7 @@ const peopleArray = [
 // //run it
 // obj.otherFunc();
 
-// // // slide 13
+// // // // slide 13
 
 // function sayHello(name) { 
 //   console.log("Hello, "+name);
@@ -208,8 +216,8 @@ const peopleArray = [
 //   aFunction("world");
 // }
 
-// // //call function and pass value
-// // doWorld(sayHello); //prints "Hello world"
+// //call function and pass value
+// doWorld(sayHello); //prints "Hello world"
 
 
 // //pass literal (anonymous value)
@@ -219,7 +227,7 @@ const peopleArray = [
 
 // }); //prints "you said: world"
 
-/* note where parens and braces close! */
+// /* note where parens and braces close! */
 
 // // slide 14 passing versus calling
 // function sayHello() { //version with no args
@@ -251,14 +259,15 @@ const peopleArray = [
 //   console.log('rub your belly');
 // }
 
-// // pass in the callbacks to do them together
-// doTogether(patHead, rubBelly);
-
+// // // pass in the callbacks to do them together
+// // doTogether(patHead, rubBelly);
 // // doTogether(rubBelly, patHead);
+
+// // // doTogether(rubBelly, patHead);
 // doTogether(rubBelly, patHead());
 
 
-// // Slide 16
+// // // Slide 16
 
 // //Arbitrary list of people's names, heights, and weights
 // let peopleArray = [ {name: 'Ada', height: 64, weight: 200},
@@ -289,8 +298,8 @@ const peopleArray = [
 // console.log('**-By Height**');
 // peopleArray.sort(sortByHeightFunction); //sorts in place!
 
-// peopleArray.forEach(function (person) { console.log(person.name, person.height)})
-// // peopleArray.forEach((person) => console.log(person))
+// peopleArray.forEach(function (person) { console.log(person)})
+// // // peopleArray.forEach((person) => console.log(person))
 
 // function sortByWeightFunction(personA, personB) {
 //   if(personA.weight < personB.weight) {
@@ -323,7 +332,7 @@ const peopleArray = [
 //    console.log(item);
 // });
 
-// //Slide 18 forEach() callbacks
+//Slide 18 forEach() callbacks
 
 // //Iterate through an array
 // const myArray = ['a','b','c'];
@@ -346,9 +355,9 @@ const peopleArray = [
 
 // //Slide 19 Mapping
 
-// // function square(n) { //a function that squares a number
-// //   return n*n;
-// // }
+// function square(n) { //a function that squares a number
+//   return n*n;
+// }
 
 // const numbers = [1,2,3,4,5];  //an initial array
 // console.log(numbers);
@@ -361,27 +370,34 @@ const peopleArray = [
 // // }
 // // console.log(squares); // [1, 4, 9, 16, 25]
 
-//TEMPLATE
-/*
-const newArray = oldArray.map(function(item){
-  const transformed = ...
-  return transformed;
-});
-*/
+// // //TEMPLATE
 
-// // map the numbers using the named callback function
-// const squares = numbers.map(square);
+// const newArray = oldArray.map(function(item){
+//   const transformed = ...
+//   return transformed;
+// });
+
+
+// // // map the numbers using the named callback function
+// // const squares = numbers.map(square);
 
 // // or more commonly, map the numbers using anonymous callback function
 // const squares = numbers.map(function(n) {
 //     return n*n;
-// })
+// });
 
 
-// console.log(squares); // [1, 4, 9, 16, 25]
+// // console.log(squares); // [1, 4, 9, 16, 25]
 
+//Arbitrary list of people's names, heights, and weights
+let peopleArray = [ {name: 'Ada', height: 64, weight: 200},
+                    {name: 'Bob', height: 54, weight: 199},
+                    {name: 'Chris', height: 69, weight: 139},
+                    {name: 'Diya', height: 69, weight: 144},
+                    {name: 'Emma', height: 71, weight: 152}];
 
 // // another  example with peopleArray:
+// console.log(peopleArray);
 
 // const alteredPeopleArray = peopleArray.map(function (personObj) {
 //   const personName = "hi " + personObj.name
@@ -421,7 +437,7 @@ const newArray = oldArray.map(function(item){
 
 // Slide 21 - Filtering
 
-// const array = [3,1,4,2,5];
+// const array = [3,1,4,2,5, 8, 0, -1];
 // console.log(array);
 
 // const isACrowd = array.filter(function(n) { 
@@ -435,29 +451,29 @@ const newArray = oldArray.map(function(item){
 
 //   return personObj.height > 69;
 
-// })
-// console.log(tallPeopleArray);
+// });
+// console.log("tallPeopleArray[]):", tallPeopleArray);
 
 // // // // Syntactic example of cascading filter and sort
 
-// const tallPeopleArray = peopleArray.filter(function (personObj) {
-//   return personObj.height > 65;
-// }).sort(function (personA, personB)  {
-//   if(personA.name < personB.name) {
-//     return -1; //person A's name comes earlier in the alphabet
-//   } else if(personA.name > personB.name) {
-//     return 1; //person B's name comes earlier in the alphabet
-//   } else {
-//     return 0; //names are the same
-//   }
-// });
+const tallPeopleArray = peopleArray.filter(function (personObj) {
+  return personObj.height > 65;
+}).sort(function (personA, personB)  {
+  if(personA.name < personB.name) {
+    return -1; //person A's name comes earlier in the alphabet
+  } else if(personA.name > personB.name) {
+    return 1; //person B's name comes earlier in the alphabet
+  } else {
+    return 0; //names are the same
+  }
+});
 
-// // prints the people over 65 inches tall, sorted by name
-// console.log(tallPeopleArray)
+// prints the people over 65 inches tall, sorted by name
+console.log(tallPeopleArray)
 
 
 
-// Slide 22 - Reducing
+// // Slide 22 - Reducing
 
 // const letters = ['a','b','c','d','e'];  //an initial array
 // function link(accumulation, newItem) { //combines two strings
@@ -482,14 +498,15 @@ const newArray = oldArray.map(function(item){
 
 // console.log(linked); //"->a->b->c->d->e"
 
-// // accumulate example with peopleArray
-// function accumulate(accumulation, personObj) {
-//   const newAccumulation = accumulation + personObj.height;
-//   return newAccumulation;
-// }
-// const totalHeightOfPeople = peopleArray.reduce(accumulate, 0);
+// accumulate example with peopleArray
+console.log(peopleArray);
+function accumulate(accumulation, personObj) {
+  const newAccumulation = accumulation + personObj.height;
+  return newAccumulation;
+}
+const totalHeightOfPeople = peopleArray.reduce(accumulate, 0);
 
-// console.log(totalHeightOfPeople);
+console.log(totalHeightOfPeople);
 
 // // Slide 24 - Practice 
 // const phoneDigits = [6,5,2,6,9.5,2];
