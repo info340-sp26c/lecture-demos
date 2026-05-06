@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import { App } from './components/App.jsx'
 
 // // Example 1
 // //JSX - element to show
@@ -72,49 +73,10 @@ import './index.css';
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(content);
 
-// //Example 6 - Make a headerComponent
+//Example 6 - Make a headerComponent
 
-// function HeaderComponent(props) {
-//     return (
-//         <div>
-//             <header>
-//                 <h1>React Pet Header</h1>
-//             </header>
-//         </div>);
-// }
 
-// function KittenPuppyMessage(props) {
-//       const puppyImgUrl = "/img/puppy-kitty.jpg"
-//     return (
-    
-//       <div>
-//         <img src={puppyImgUrl} alt="a cute puppy and kitten" />
-//         <h3>Kitten and Puppy</h3>
-//       </div>
-//       )
-// }
 
-// function PuppyMessage(props) {
-//     const puppyImgUrl = "/img/puppy.jpg"
-//     return (
-    
-//       <div>
-//         <img src={puppyImgUrl} alt="a cute puppy" />
-//         <h3>Puppy</h3>
-//       </div>
-//       )
-// }
-
-// function PetList(props) {
-//     return (
-//         <div>
-//             <ul>
-//                 <KittenPuppyMessage /> {/* A KittenPuppyMessage component */}
-//                 <PuppyMessage /> {/* A PuppyMessage component */}
-//             </ul>
-//         </div>
-//     );
-// }
 
 // const content =
 //     <>
@@ -122,8 +84,8 @@ import './index.css';
 //         <PetList />
 //     </>
 
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(content)
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />)
 
 // // // Example 7
 
