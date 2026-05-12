@@ -1,18 +1,29 @@
 /* slide 17 */
 
+<<<<<<< HEAD
 .message img {
     border-radius: 50%;
 }
+=======
+/* .message img {
+    border-radius: 50%;
+} */
+>>>>>>> starter
 
 
 
 /* slide 18 */
 
+<<<<<<< HEAD
 .message img {
+=======
+/* .message img {
+>>>>>>> starter
     border-radius: 50%;
     width: 50px;
     height: 50px;
 
+<<<<<<< HEAD
 } 
 
 
@@ -22,3 +33,14 @@
     font-weight: bold;
     margin: 0;
 }
+=======
+}  */
+
+
+/* Slide 18 */
+/* 
+.message .user-name {
+    font-weight: bold;
+    margin: 0;
+} */
+>>>>>>> starter

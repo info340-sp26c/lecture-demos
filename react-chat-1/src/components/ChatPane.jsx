@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import React from 'react';
 
 // // Example Slide 17
@@ -12,6 +13,21 @@
 //         </div>
 //     )
 // }
+=======
+import React from 'react';
+
+// Example Slide 17
+export function ChatPane(props) {
+    return (
+        <div>
+            <MessageItem />
+            <MessageItem />
+            <MessageItem />
+            <MessageItem />
+        </div>
+    )
+}
+>>>>>>> starter
 
 // function MessageItem(props) {
 
@@ -91,6 +107,7 @@
 
 
 
+<<<<<<< HEAD
 // Slide 21
 import CHAT_HISTORY from '../data/chat_log.json';
 
@@ -122,6 +139,39 @@ function MessageItem(props) {
         </div>
     )
 }
+=======
+// // Slide 21
+// import CHAT_HISTORY from '../data/chat_log.json';
+
+// export function ChatPane(props) {
+
+//     const messageItemArray = CHAT_HISTORY.map((messageObj) => {
+//         const element = <MessageItem messageData={messageObj} key={messageObj.timestamp} />
+//         return element;
+// })
+//     return (
+//         <div className='pt-2'>
+//         {messageItemArray}  
+//         </div>     
+//     )
+// }
+
+// function MessageItem(props) {
+//     const { userName, userImg, text} = props.messageData
+
+//     return (
+//         <div className='message d-flex mb-2'>
+//             <div className='me-2'>
+//                 <img src={userImg} alt={userName+ " avatar"} />
+//             </div>
+//             <div className='flex-grow-1'>
+//                 <p className='user-name'>{userName}</p>
+//                 <p>{text}</p>
+//             </div>
+//         </div>
+//     )
+// }
+>>>>>>> starter
 
 // // Slide 27 Example - Only show current channel messages
 

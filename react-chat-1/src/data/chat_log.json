@@ -46,6 +46,7 @@
       "text": "Who?",
       "timestamp": 1320224640000,
       "channel": "random"
+<<<<<<< HEAD
   },
   {
       "userId": "bat",
@@ -56,4 +57,7 @@
       "channel": "random"
   }
 
+=======
+  }
+>>>>>>> starter
 ]

@@ -1,13 +1,25 @@
+<<<<<<< HEAD
 // import React from 'react';
+=======
+import React from 'react';
+>>>>>>> starter
 // import { HeaderBar } from './HeaderBar';
 // import { ChannelList } from './ChannelList';
 // import { ChatPane } from './ChatPane';
 
+<<<<<<< HEAD
 // export default function App(props) {
 //   return (
 //     <div>Hello App</div>
 //   );
 // }
+=======
+export default function App(props) {
+  return (
+    <div>Hello App</div>
+  );
+}
+>>>>>>> starter
 
 
 // // Example Slide 7 (Properties (props))
@@ -29,7 +41,11 @@
 //     <main>
 //       <h1>Props Example</h1>
 
+<<<<<<< HEAD
 //      <Greeting name="Maya" language="JavaScript" schoolStanding="Junior" eligibility="sophmore"/>
+=======
+//      <Greeting name="Maya" language="JavaScript" schoolStanding="Junior" />
+>>>>>>> starter
 //      <Greeting name="Diego" language="Python" schoolStanding="Senior" />
 //      <Greeting name="Ava" language="Java" schoolStanding="Sophomore" />
 //     </main>
@@ -55,6 +71,7 @@
 //   { name: "Ava", language: "Java" }
 // ];
 
+<<<<<<< HEAD
 // // function Greeting({ name, language }) {
 // //   return (
 // //     <section>
@@ -63,6 +80,16 @@
 // //     </section>
 // //   );
 // // }
+=======
+// function Greeting({ name, language }) {
+//   return (
+//     <section>
+//       <h2>Hello, {name}!</h2>
+//       <p>Your favorite language is {language}.</p>
+//     </section>
+//   );
+// }
+>>>>>>> starter
 
 // export default function App() {
 
@@ -72,7 +99,10 @@
 //       <Greeting
 //         name={student.name}
 //         language={student.language}
+<<<<<<< HEAD
         
+=======
+>>>>>>> starter
 //       />
 //     );
 //   });
@@ -82,7 +112,11 @@
 //       <h1>Props + Map Example</h1>
 
 //       {/* render the array of elements */}
+<<<<<<< HEAD
 //       { greetingElements }
+=======
+//       {greetingElements}
+>>>>>>> starter
 //     </main>
 //   );
 // }
@@ -99,6 +133,7 @@
 //   );
 // }
 
+<<<<<<< HEAD
 import { HeaderBar } from './HeaderBar';
 import { ChannelList } from './ChannelList';
 import { ChatPane } from './ChatPane';
@@ -110,6 +145,8 @@ import { ChatPane } from './ChatPane';
 // }
 
 
+=======
+>>>>>>> starter
 // // Example Slide 14
 
 // export default function App(props) {
@@ -120,7 +157,11 @@ import { ChatPane } from './ChatPane';
 //   );
 // }
 
+<<<<<<< HEAD
 // // Example Slide 15
+=======
+// Example Slide 15
+>>>>>>> starter
 // export default function App(props) {
 //   return (
 //     <div>
@@ -129,6 +170,7 @@ import { ChatPane } from './ChatPane';
 //     </div>
 //   );
 // }
+<<<<<<< HEAD
 // Example Slide 17
 export default function App(props) {
   return (
@@ -139,6 +181,18 @@ export default function App(props) {
     </div>
   );
 }
+=======
+// // Example Slide 17
+// export default function App(props) {
+//   return (
+//     <div>
+//       <HeaderBar />
+//       <ChannelList />
+//       <ChatPane/>
+//     </div>
+//   );
+// }
+>>>>>>> starter
 
 // // Example Slide 24
 
