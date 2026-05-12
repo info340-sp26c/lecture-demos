@@ -116,6 +116,10 @@ export function PizzaCounter(props) {
 //   setNumPizzas(numPizzas - 1);
 // }
 
+// //- point 5 conditional rendering
+
+// { pizzaArray }
+// { pizzaArray.length === 0 && <p>No pizzas left!</p> } 
 
 // // (III) Arrays and Objects as State example
 
