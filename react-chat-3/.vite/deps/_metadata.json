@@ -1,0 +1,31 @@
+{
+  "hash": "52659fd2",
+  "configHash": "9d23815a",
+  "lockfileHash": "538e1f7a",
+  "browserHash": "42dfbbf1",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "7afe7db0",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "c38fac0b",
+      "needsInterop": true
+    },
+    "react-bootstrap/Dropdown": {
+      "src": "../../node_modules/react-bootstrap/esm/Dropdown.js",
+      "file": "react-bootstrap_Dropdown.js",
+      "fileHash": "21511aa4",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-UTEJFLXC": {
+      "file": "chunk-UTEJFLXC.js"
+    }
+  }
+}
