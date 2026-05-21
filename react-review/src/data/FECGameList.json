@@ -1,0 +1,431 @@
+[
+  {
+    "ImagePath": "img/AirFX.jpg",
+    "Manufacturer": "ICE Games",
+    "GameName": "Air FX Hockey Table",
+    "GameDescription": "High Falutin' Air Hockey. Fancy colors, Fancy paddles, Fancy times!!!",
+    "ManufacturerSite": "https://www.icegame.com/"
+  },
+  {
+    "ImagePath": "img/CruisnBlast.jpg",
+    "Manufacturer": "Raw Thrills",
+    "GameName": "Cruis'n Blast",
+    "GameDescription": "The only place where speeding is encouraged and explosions are just another Tuesday.",
+    "ManufacturerSite": "https://rawthrills.com/games/cruisn-blast/"
+  },
+  {
+    "ImagePath": "img/HaloFireTeamRaven.jpg",
+    "Manufacturer": "Raw Thrills",
+    "GameName": "Halo FireTeam Raven",
+    "GameDescription": "Suit up, Spartan! There’s no respawn in the arcade version—just keep blasting aliens!",
+    "ManufacturerSite": "https://rawthrills.com/games/halo-fireteam-raven/"
+
+  },
+  {
+    "ImagePath": "img/HungryHippos.jpg",
+    "Manufacturer": "Adrenaline Arcade",
+    "GameName": "Hungry, Hungry Hippos",
+    "GameDescription": "Bigger than the board game! Feed those hungry hippos like it’s an all-you-can-eat buffet.",
+    "ManufacturerSite": "https://adrenalinearcade.com/hungry-hungry-hippos-v2/"
+
+  },
+  {
+    "ImagePath": "img/MarioKart.jpg",
+    "Manufacturer": "Namco America",
+    "GameName": "Mario Kart",
+    "GameDescription": "Pick your favorite plumber and race to victory! Toss some shells for good measure.",
+    "ManufacturerSite": "https://www.bandainamco-am.com/Ecommerce/category/commercial-games/mario-kart-arcade-gp-dx"
+  },
+  {
+    "ImagePath": "img/minecraft.jpg",
+    "Manufacturer": "Raw Thrills",
+    "GameName": "Minecraft Dungeons Arcade",
+    "GameDescription": "Mining, crafting, and battling in full arcade glory! The creepers never saw it coming.",
+    "ManufacturerSite": "https://rawthrills.com/minecraft-dungeons-arcade/"
+  },
+  {
+    "ImagePath": "img/SuperBike.jpg",
+    "Manufacturer": "Raw Thrills",
+    "GameName": "Super Bike 3",
+    "GameDescription": "Feel the wind as you race through twists and turns without needing a helmet!",
+    "ManufacturerSite": "https://rawthrills.com/super-bikes-3/"
+  },
+  {
+    "ImagePath": "img/Twister.jpg",
+    "Manufacturer": "Adrenaline Arcade",
+    "GameName": "Twister",
+    "GameDescription": "Hold on tight! It's like being in a tornado, minus the whole getting dizzy and landing in Oz.",
+    "ManufacturerSite": "https://adrenalinearcade.com/twister-v2/"
+  },
+  {
+    "ImagePath": "img/Typhoon.jpg",
+    "Manufacturer": "TrioTech",
+    "GameName": "Typhoon",
+    "GameDescription": "Hang on for dear life in this 3D experience! Brace yourself for the storm ahead!",
+    "ManufacturerSite": "https://www.trio-tech.com/products/typhoon/"
+  },
+  {
+    "ImagePath": "img/JurassicPark.jpg",
+    "Manufacturer": "Raw Thrills",
+    "GameName": "Jurassic Park",
+    "GameDescription": "Dinos are on the loose! Grab a blaster and save the park without getting eaten!",
+    "ManufacturerSite": "https://rawthrills.com/games/jurassic-park-arcade/"
+  },
+  {
+    "ImagePath": "img/Boxing.jpg",
+    "Manufacturer": "Kalkomat",
+    "GameName": "Boxer Boxing Machine",
+    "GameDescription": "Test your punching power and see if you've got what it takes to be a heavyweight champ!",
+    "ManufacturerSite": "https://www.kalkomat.com/"
+  },
+  {
+    "ImagePath": "img/StepMania.jpg",
+    "Manufacturer": "Stepmaniax",
+    "GameName": "Stepmaniax",
+    "GameDescription": "Dance to the beat and stomp out your competition. Feet not included.",
+    "ManufacturerSite": "https://stepmaniax.com/"
+  },
+  {
+    "ImagePath": "img/WorldsLargestPacMan.jpg",
+    "Manufacturer": "Bandai Namco",
+    "GameName": "World's largest PacMan",
+    "GameDescription": "Pac-Man, but super-sized! More dots to eat, more ghosts to evade!",
+    "ManufacturerSite": "https://www.namcoparts.com/Ecommerce/category/commercial-games/worlds-largest-pac-man"
+  },
+  {
+    "ImagePath": "img/BabyAir.jpg",
+    "Manufacturer": "ICE Games",
+    "GameName": "Baby Air Hockey",
+    "GameDescription": "A pint-sized air hockey table for the littlest champs in the arcade!",
+    "ManufacturerSite": "https://www.icegame.com/"
+  },
+  {
+    "ImagePath": "img/BigBuck.jpg",
+    "Manufacturer": "Raw Thrills",
+    "GameName": "Big Buck HD",
+    "GameDescription": "The wilderness is calling! Sharpen your aim and take down virtual bucks in HD.",
+    "ManufacturerSite": "https://rawthrills.com/big-buck-hd-wild/"
+  },
+  {
+    "ImagePath": "img/LetsGoSafari.jpg",
+    "Manufacturer": "Sega Amusements (UK)",
+    "GameName": "Let's go Safari",
+    "GameDescription": "Take a ride through the wild and spot as many animals as you can!",
+    "ManufacturerSite": "https://segaretro.org/Let%27s_Go_Safari"
+  },
+  {
+    "ImagePath": "img/LaserFrenzy.jpg",
+    "Manufacturer": "Creative Works",
+    "GameName": "Lazer Frenzy",
+    "GameDescription": "Duck, dive, and dodge your way through a maze of lasers like you're in a heist movie.",
+    "ManufacturerSite": "https://www.pursuitzone.com/amusement-park-ride-category/creative-works-Laser-Tag-Arena/"
+  },
+  {
+    "ImagePath": "img/BeanBagToss.jpg",
+    "Manufacturer": "ICE Games",
+    "GameName": "Bean Bag Toss",
+    "GameDescription": "Toss the bags like a champ! It's all about the perfect throw (and a bit of luck).",
+    "ManufacturerSite": "https://www.icegame.com/games/bean-bag-toss/"
+  },
+  {
+    "ImagePath": "img/BigBassWheel.jpg",
+    "Manufacturer": "Bay Tek",
+    "GameName": "Big Bass Wheel",
+    "GameDescription": "Spin the wheel, catch the fish, and reel in those tickets!",
+    "ManufacturerSite": "https://www.baytekent.com/big-bass-wheel/"
+  },
+  {
+    "ImagePath": "img/Connect4Hoops.jpg",
+    "Manufacturer": "Bay Tek",
+    "GameName": "Connect 4 Hoops",
+    "GameDescription": "Connect 4 meets basketball. Shoot hoops, line them up, and celebrate victory!",
+    "ManufacturerSite": "https://www.baytekent.com/connect-4-hoops/#:~:text=Connect%204%20Hoops%20%2D%20Bay%20Tek%20Entertainment"
+  },
+  {
+    "ImagePath": "img/CrossyRoad.jpg",
+    "Manufacturer": "Hipster Whale",
+    "GameName": "Crossy Roads",
+    "GameDescription": "Why did the chicken cross the road? To win you tickets in this mega version!",
+    "ManufacturerSite": "https://www.crossyroad.com/about"
+  },
+  {
+    "ImagePath": "img/DCSuperHeroes.jpg",
+    "Manufacturer": "Andamiro",
+    "GameName": "DC Superheroes",
+    "GameDescription": "Suit up with your favorite superhero and save the day one token at a time!",
+    "ManufacturerSite": "https://andamirousa.com/product/dc-superheroes/"
+  },
+  {
+    "ImagePath": "img/DownTheClown.jpg",
+    "Manufacturer": "ICE Games",
+    "GameName": "Down the Clown",
+    "GameDescription": "Knock down as many clowns as you can. They're smiling, but they’re going down!",
+    "ManufacturerSite": "https://www.icegame.com/games/down-the-clown/"
+  },
+  {
+    "ImagePath": "img/DuoDrive.jpg",
+    "Manufacturer": "Unis Games",
+    "GameName": "Duo Drive",
+    "GameDescription": "Twice the wheels, twice the fun! Race your way to the finish!",
+    "ManufacturerSite": "https://www.unistechnology.com/products/duo-drive/"    
+  },
+  {
+    "ImagePath": "img/FishBowlFrenzy.jpg",
+    "Manufacturer": "Team Play Inc",
+    "GameName": "Fishbowl Frenzy",
+    "GameDescription": "Drop the ball, test your aim, and try not to get splashed by excitement!",
+    "ManufacturerSite": "https://primetimeamusements.com/product/fishbowl-frenzy/" 
+  },
+  {
+    "ImagePath": "img/FlyingTickets.jpg",
+    "Manufacturer": "Adrenaline Arcade",
+    "GameName": "Flying Tickets",
+    "GameDescription": "Launch tickets into the air for a high-flying arcade experience – catch them if you can!",
+    "ManufacturerSite": "https://adrenalinearcade.com/flying-tickets-2/" 
+  },
+  {
+    "ImagePath": "img/GrandPianoKeys.jpg",
+    "Manufacturer": "Bay Tek",
+    "GameName": "Grand Piano Keys",
+    "GameDescription": "Become the next Mozart by stepping on oversized piano keys – musical skill not required!",
+    "ManufacturerSite": "https://www.baytekent.com/grand-piano-keys/" 
+  },
+  {
+    "ImagePath": "img/Hoops.jpg",
+    "Manufacturer": "Universal Space",
+    "GameName": "Hoops",
+    "GameDescription": "Perfect your shooting skills in this fast-paced basketball showdown. Dunk like a pro!",
+    "ManufacturerSite": "https://primetimeamusements.com/product/extreme-hoops/" 
+  },
+  {
+    "ImagePath": "img/IceBall.jpg",
+    "Manufacturer": "ICE Games",
+    "GameName": "Ice Ball",
+    "GameDescription": "Roll the ball, hit the targets, and chill out with this icy twist on skee-ball.",
+    "ManufacturerSite": "https://www.icegame.com/?attachment_id=3886" 
+  },
+  {
+    "ImagePath": "img/KingOfRingsGreen.jpg",
+    "Manufacturer": "Smart Industries",
+    "GameName": "King of Rings",
+    "GameDescription": "Aim, toss, and reign supreme as the ultimate king of ring toss!",
+    "ManufacturerSite": "https://www.smartind.com/ticketring.html" 
+  },
+  {
+    "ImagePath": "img/Monopoly.jpg",
+    "Manufacturer": "M&P Amusement",
+    "GameName": "Monopoly",
+    "GameDescription": "Take over the arcade, one property at a time. Collect tickets instead of cash!",
+    "ManufacturerSite": "https://mpamusement.com/products/monopoly-ticket-arcade-game" 
+  },
+  {
+    "ImagePath": "img/Nerf.jpg",
+    "Manufacturer": "Raw Thrills",
+    "GameName": "Nerf",
+    "GameDescription": "Blast your way through targets with classic NERF power! Arcade-style fun for all ages.",
+    "ManufacturerSite": "https://rawthrills.com/nerf-arcade/" 
+  },
+  {
+    "ImagePath": "img/PiratesHook.jpg",
+    "Manufacturer": "Universal Space",
+    "GameName": "Pirate's Hook",
+    "GameDescription": "Set sail on a fishing adventure for treasures – avoid the sharks and hook the big one!",
+    "ManufacturerSite": "https://www.unispartsandservice.com/games/pirate-hook-4-player" 
+  },
+  {
+    "ImagePath": "img/RedeemMachine.jpg",
+    "Manufacturer": "Andamiro",
+    "GameName": "Redeem Machine",
+    "GameDescription": "Turn your arcade winnings into prizes. It’s like a vending machine but with victory.",
+    "ManufacturerSite": "https://andamirousa.com/product/redeem-machine/" 
+  },
+  {
+    "ImagePath": "img/WhackNWin.jpg",
+    "Manufacturer": "Andamiro",
+    "GameName": "Whack n Win",
+    "GameDescription": "Whack the target, earn tickets – it’s therapy with a prize at the end!",
+    "ManufacturerSite": "https://www.icegame.com/games/whack-n-win/" 
+  },
+  {
+    "ImagePath": "img/QuickDrop.jpg",
+    "Manufacturer": "Bay Tek",
+    "GameName": "Quick Drop",
+    "GameDescription": "Drop balls into the buckets and test your speed. The quicker, the better!",
+    "ManufacturerSite": "https://www.baytekent.com/quik-drop/" 
+  },
+  {
+    "ImagePath": "img/BlackHole.jpg",
+    "Manufacturer": "Coastal Amusements",
+    "GameName": "Black Hole",
+    "GameDescription": "Send the ball into the unknown and aim for the jackpot in this cosmic adventure!",
+    "ManufacturerSite": "https://coastalamusements.com/game/black-hole/" 
+  },
+  {
+    "ImagePath": "img/PopTheLock.jpg",
+    "Manufacturer": "Bay Tek",
+    "GameName": "Pop the Lock",
+    "GameDescription": "Crack the code, pop the lock, and claim your prize like a true safecracker.",
+    "ManufacturerSite": "https://www.baytekent.com/pop-the-lock/" 
+  },
+  {
+    "ImagePath": "img/MilkJugToss.jpg",
+    "Manufacturer": "ICE Games",
+    "GameName": "Milk Jug Toss",
+    "GameDescription": "Toss the balls and land them in milk jugs. It’s old-fashioned fun with new-fangled prizes.",
+    "ManufacturerSite": "https://www.icegame.com/" 
+  },
+  {
+    "ImagePath": "img/MinionWhacker.jpg",
+    "Manufacturer": "Adrenaline Arcade",
+    "GameName": "Minion Whacker",
+    "GameDescription": "Bop those pesky minions! They’re everywhere – it’s whack-a-mole, but with minions!",
+    "ManufacturerSite": "https://primetimeamusements.com/product/despicable-minion-whacker/" 
+  },
+  {
+    "ImagePath": "img/KCCobra.jpg",
+    "Manufacturer": "ICE Games",
+    "GameName": "KC Cobra",
+    "GameDescription": "Ride the snake, dodge obstacles, and hold on tight for a wild, slithery adventure!",
+    "ManufacturerSite": "https://www.icegame.com/games/sting-motion-based-rides/" 
+  },
+  {
+    "ImagePath": "img/CircusBallDrop.jpg",
+    "Manufacturer": "Andamiro",
+    "GameName": "Circus Ball Drop",
+    "GameDescription": "Step right up and drop the ball to win! Channel your inner circus performer.",
+    "ManufacturerSite": "https://www.andamiro.com/games/circusballdrop" 
+  },
+  {
+    "ImagePath": "img/2MinuteDrill.jpg",
+    "Manufacturer": "ICE Games",
+    "GameName": "2 Minute Drill",
+    "GameDescription": "Can you handle the pressure? Score points in two minutes or less – no overtime allowed!",
+    "ManufacturerSite": "https://primetimeamusements.com/product/nfl-2-minute-drill/" 
+  },
+  {
+    "ImagePath": "img/CardBalanceStation.jpg",
+    "Manufacturer": "Intercard",
+    "GameName": "Card Balance Sation",
+    "GameDescription": "Check your card balance and strategize for your next big arcade play!",
+    "ManufacturerSite": "https://www.intercardinc.com/" 
+  },
+  {
+    "ImagePath": "img/SpaceInvaders.jpg",
+    "Manufacturer": "Raw Thrills",
+    "GameName": "Space Invaders",
+    "GameDescription": "Defend Earth from alien invaders – retro arcade action with a modern twist!",
+    "ManufacturerSite": "https://rawthrills.com/games/space-invaders-frenzy/" 
+  },
+  {
+    "ImagePath": "img/TicketTime.jpg",
+    "Manufacturer": "Smart Industries",
+    "GameName": "Ticket Time",
+    "GameDescription": "Grab as many tickets as you can in this claw machine extravaganza!",
+    "ManufacturerSite": "https://www.smartind.com/tickettime.html" 
+  },
+  {
+    "ImagePath": "img/TowerOfTickets.jpg",
+    "Manufacturer": "Bay Tek",
+    "GameName": "Tower of Tickets",
+    "GameDescription": "Stack up the tickets and win big – it’s like building blocks, but for prizes!",
+    "ManufacturerSite": "https://www.baytekent.com/tower-of-tickets/" 
+  },
+  {
+    "ImagePath": "img/WizardOfOz.jpg",
+    "Manufacturer": "Elaut",
+    "GameName": "Wizard of Oz",
+    "GameDescription": "Follow the yellow brick road to ticket prizes! No ruby slippers needed.",
+    "ManufacturerSite": "https://www.elaut.com/amusement-games/wizard-of-oz-3-player" 
+  },
+  {
+    "ImagePath": "img/CandyCrane.jpg",
+    "Manufacturer": "Coast to Coast Entertainment",
+    "GameName": "Candy Cane",
+    "GameDescription": "Reach into the candy kingdom and grab a sweet treat (or a prize) with this crane game!",
+    "ManufacturerSite": "https://primetimeamusements.com/product/candy-prize/" 
+  },
+  {
+    "ImagePath": "img/DuckCatcher.jpg",
+    "Manufacturer": "Coast to Coast Entertainment",
+    "GameName": "Duck Catcher",
+    "GameDescription": "Snag a duck for a quacking good time! Will you reel in the top prize?",
+    "ManufacturerSite": "https://www.winwithp1ag.com/product/duck-catcher" 
+  },
+  {
+    "ImagePath": "img/EClaw.jpg",
+    "Manufacturer": "Elaut",
+    "GameName": "E-Claw",
+    "GameDescription": "Test your precision with the E-Claw – where the prize is just a grab away!",
+    "ManufacturerSite": "https://www.elaut.com/amusement-games/crane-e-claw-900-series" 
+  },
+  {
+    "ImagePath": "img/FunZone.jpg",
+    "Manufacturer": "Coast to Coast Entertainment",
+    "GameName": "Fun Zone",
+    "GameDescription": "Fun, Fun, Fun!!! that's what this zone promises to provide!",
+    "ManufacturerSite": "https://coasttocoastcranes.com/equipment/cranes/fun-zone-36-inch/" 
+  },
+  {
+    "ImagePath": "img/empty.jpg",
+    "Manufacturer": "Jif",
+    "GameName": "Empty",
+    "GameDescription": "The one game where you win...absolutely nothing!",
+    "ManufacturerSite": "https://www.jif.com/" 
+  },
+  {
+    "ImagePath": "img/PrizeBox.jpg",
+    "Manufacturer": "Smart Industries",
+    "GameName": "Prize Box",
+    "GameDescription": "Open the box and see what treasures await – it’s a mystery every time!",
+    "ManufacturerSite": "https://www.smartind.com/prizebox.html" 
+  },
+  {
+    "ImagePath": "img/MegaPrize.jpg",
+    "Manufacturer": "Smart Industries",
+    "GameName": "Mega Prize",
+    "GameDescription": "Think big and win big – it’s the MEGA prize experience!",
+    "ManufacturerSite": "https://www.smartind.com/megaprize.html" 
+  },
+  {
+    "ImagePath": "img/PrizeLocker.jpg",
+    "Manufacturer": "Sega",
+    "GameName": "Prize Locker",
+    "GameDescription": "Unlock the locker and reveal a prize. Key in your luck!",
+    "ManufacturerSite": "https://segaarcade.com/games/prize-locker" 
+  },
+  {
+    "ImagePath": "img/PhotoBooth.jpg",
+    "Manufacturer": "Team Play Inc",
+    "GameName": "Photo Booth",
+    "GameDescription": "Strike a pose! Capture the moment and take home a fun memory.",
+    "ManufacturerSite": "https://primetimeamusements.com/product/fun-stop-photos/" 
+  },
+  {
+    "ImagePath": "img/MiniGolf.jpg",
+    "Manufacturer": "Fun Company",
+    "GameName": "Mini Golf",
+    "GameDescription": "Mini golf, mini clubs, maximum fun! Putt your way to a hole-in-one.",
+    "ManufacturerSite": "https://primetimeamusements.com/product/power-putt-mini-golf-lcd-cabinet/" 
+  },
+  {
+    "ImagePath": "img/MiniBowling.jpg",
+    "Manufacturer": "Funk",
+    "GameName": "Mini Bowling",
+    "GameDescription": "Bowl in miniature, score big! The lanes may be small, but the fun is enormous.",
+    "ManufacturerSite": "https://www.funkbowling.com/products/mini-bowling/" 
+  },
+  {
+    "ImagePath": "img/KingKongVR.jpg",
+    "Manufacturer": "Raw Thrills",
+    "GameName": "King Kong VR",
+    "GameDescription": "Enter Skull Island and take on King Kong – hold on tight in this VR thrill ride!",
+    "ManufacturerSite": "https://rawthrills.com/king-kong-of-skull-island/" 
+  },
+  {
+    "ImagePath": "img/StormVR.jpg",
+    "Manufacturer": "Trio Tech",
+    "GameName": "Storm VR",
+    "GameDescription": "Feel the storm, face the challenges, and brave the VR weather in this virtual adventure!",
+    "ManufacturerSite": "https://www.trio-tech.com/products/storm/" 
+  }
+ ]
