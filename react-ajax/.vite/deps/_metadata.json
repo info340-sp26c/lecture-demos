@@ -1,0 +1,34 @@
+{
+  "hash": "a7b85d23",
+  "configHash": "f6233c37",
+  "lockfileHash": "a4dc64e0",
+  "browserHash": "07cca4df",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "2019ec8b",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "a016bc37",
+      "needsInterop": true
+    },
+    "whatwg-fetch": {
+      "src": "../../node_modules/whatwg-fetch/fetch.js",
+      "file": "whatwg-fetch.js",
+      "fileHash": "8afd9e04",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-JCH2SJW3": {
+      "file": "chunk-JCH2SJW3.js"
+    },
+    "chunk-BUSYA2B4": {
+      "file": "chunk-BUSYA2B4.js"
+    }
+  }
+}
