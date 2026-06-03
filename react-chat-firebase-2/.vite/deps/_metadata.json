@@ -1,0 +1,76 @@
+{
+  "hash": "fa6da76e",
+  "configHash": "c66f084d",
+  "lockfileHash": "96a9bbec",
+  "browserHash": "08ab17de",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "47361de1",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "e2e703fc",
+      "needsInterop": true
+    },
+    "react-router": {
+      "src": "../../node_modules/react-router/dist/development/index.mjs",
+      "file": "react-router.js",
+      "fileHash": "3497c123",
+      "needsInterop": false
+    },
+    "firebase/app": {
+      "src": "../../node_modules/firebase/app/dist/esm/index.esm.js",
+      "file": "firebase_app.js",
+      "fileHash": "c5e7d7a4",
+      "needsInterop": false
+    },
+    "firebase/database": {
+      "src": "../../node_modules/firebase/database/dist/esm/index.esm.js",
+      "file": "firebase_database.js",
+      "fileHash": "952a06e4",
+      "needsInterop": false
+    },
+    "react-bootstrap/Dropdown": {
+      "src": "../../node_modules/react-bootstrap/esm/Dropdown.js",
+      "file": "react-bootstrap_Dropdown.js",
+      "fileHash": "59480626",
+      "needsInterop": false
+    },
+    "react-firebaseui/dist/StyledFirebaseAuth": {
+      "src": "../../node_modules/react-firebaseui/dist/StyledFirebaseAuth.js",
+      "file": "react-firebaseui_dist_StyledFirebaseAuth.js",
+      "fileHash": "fd51f2b1",
+      "needsInterop": true
+    },
+    "firebase/auth": {
+      "src": "../../node_modules/firebase/auth/dist/esm/index.esm.js",
+      "file": "firebase_auth.js",
+      "fileHash": "fe2d0073",
+      "needsInterop": false
+    },
+    "firebase/storage": {
+      "src": "../../node_modules/firebase/storage/dist/esm/index.esm.js",
+      "file": "firebase_storage.js",
+      "fileHash": "8082b90f",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-KJXFJFRL": {
+      "file": "chunk-KJXFJFRL.js"
+    },
+    "chunk-AN7VWA6D": {
+      "file": "chunk-AN7VWA6D.js"
+    },
+    "chunk-U4SAMRUE": {
+      "file": "chunk-U4SAMRUE.js"
+    },
+    "chunk-V4OQ3NZ2": {
+      "file": "chunk-V4OQ3NZ2.js"
+    }
+  }
+}
