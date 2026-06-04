@@ -1,0 +1,212 @@
+[
+  {
+    "id": "latte",
+    "name": "Latte",
+    "image": "/images/latte.jpg",
+    "shortDescription": "Espresso with steamed milk and light foam.",
+    "tagline": "Creamy, smooth, and espresso-forward",
+    "whatIsIt": "A latte is a popular espresso-based beverage made with one or more shots of espresso and steamed milk, topped with a light layer of foam. It is known for its smooth texture and balanced flavor.",
+    "nutrition": {
+      "calories": "~190",
+      "sugar": "~18g (naturally occurring from milk)",
+      "caffeine": "~150mg",
+      "milkType": "Whole (can substitute oat, almond, soy)",
+      "espressoShots": "1–2"
+    },
+    "flavorProfile": "Mild sweetness from steamed milk, low bitterness, creamy mouthfeel, and subtle espresso richness.",
+    "funFacts": [
+      "“Latte” means “milk” in Italian.",
+      "Popular for latte art designs.",
+      "Often used as a base for flavored syrups."
+    ]
+  },
+  {
+    "id": "cold-brew",
+    "name": "Cold Brew",
+    "image": "/images/cold-brew.jpg",
+    "shortDescription": "Smooth, slow-steeped coffee served cold.",
+    "tagline": "Bold, cool, and less acidic",
+    "whatIsIt": "Cold brew is coffee steeped in cold water for many hours, then filtered and served chilled. It is known for being smooth and mellow.",
+    "nutrition": {
+      "calories": "~5",
+      "sugar": "0g",
+      "caffeine": "~200mg",
+      "milkType": "Usually none",
+      "espressoShots": "0"
+    },
+    "flavorProfile": "Smooth, rich, mellow, and less acidic than traditional iced coffee.",
+    "funFacts": [
+      "Brewed without heat.",
+      "Often steeped for 12–24 hours.",
+      "Usually stronger than regular iced coffee."
+    ]
+  },
+  {
+    "id": "cappuccino",
+    "name": "Cappuccino",
+    "image": "/images/cappuccino.jpg",
+    "shortDescription": "Espresso with steamed milk and thick foam.",
+    "tagline": "Foamy, rich, and balanced",
+    "whatIsIt": "A cappuccino is an espresso drink made with espresso, steamed milk, and a thick layer of foam.",
+    "nutrition": {
+      "calories": "~120",
+      "sugar": "~10g",
+      "caffeine": "~150mg",
+      "milkType": "Whole (or substitute)",
+      "espressoShots": "1–2"
+    },
+    "flavorProfile": "Stronger espresso taste than a latte, with airy foam and creamy texture.",
+    "funFacts": [
+      "Named after Capuchin friars.",
+      "Known for its equal parts espresso, milk, and foam.",
+      "A classic morning coffee in Italy."
+    ]
+  },
+  {
+    "id": "americano",
+    "name": "Americano",
+    "image": "/images/americano.jpg",
+    "shortDescription": "Espresso diluted with hot water for a smooth, bold flavor.",
+    "tagline": "Simple, strong, and smooth",
+    "whatIsIt": "An Americano is made by adding hot water to espresso, creating a coffee similar in strength to drip coffee but with a different flavor profile.",
+    "nutrition": {
+      "calories": "~10",
+      "sugar": "0g",
+      "caffeine": "~150mg",
+      "milkType": "Usually none",
+      "espressoShots": "1–2"
+    },
+    "flavorProfile": "Bold and smooth, with espresso character but a lighter body than straight espresso.",
+    "funFacts": [
+      "Popularized during World War II.",
+      "Often compared to brewed coffee.",
+      "Can be served hot or iced."
+    ]
+  },
+  {
+    "id": "mocha",
+    "name": "Mocha",
+    "image": "/images/mocha.jpg",
+    "shortDescription": "Espresso blended with chocolate and steamed milk.",
+    "tagline": "Chocolatey, creamy, and comforting",
+    "whatIsIt": "A mocha combines espresso, steamed milk, and chocolate for a sweet coffeehouse favorite.",
+    "nutrition": {
+      "calories": "~290",
+      "sugar": "~30g",
+      "caffeine": "~150mg",
+      "milkType": "Whole (or substitute)",
+      "espressoShots": "1–2"
+    },
+    "flavorProfile": "Sweet, creamy, and rich, with both coffee and chocolate flavors.",
+    "funFacts": [
+      "Often topped with whipped cream.",
+      "A favorite gateway coffee drink.",
+      "Named after Mocha, a port city in Yemen."
+    ]
+  },
+  {
+    "id": "flat-white",
+    "name": "Flat White",
+    "image": "/images/flat-white.jpg",
+    "shortDescription": "Velvety microfoam poured over rich espresso.",
+    "tagline": "Velvety, strong, and smooth",
+    "whatIsIt": "A flat white is an espresso drink with steamed milk and fine microfoam, usually stronger than a latte.",
+    "nutrition": {
+      "calories": "~170",
+      "sugar": "~13g",
+      "caffeine": "~150mg",
+      "milkType": "Whole (or substitute)",
+      "espressoShots": "2"
+    },
+    "flavorProfile": "Smooth and creamy with a stronger espresso-forward flavor than a latte.",
+    "funFacts": [
+      "Especially popular in Australia and New Zealand.",
+      "Known for silky microfoam.",
+      "Usually smaller than a latte."
+    ]
+  },
+  {
+    "id": "macchiato",
+    "name": "Macchiato",
+    "image": "/images/macchiato.jpg",
+    "shortDescription": "Espresso “stained” with a small amount of foam.",
+    "tagline": "Small, intense, and espresso-forward",
+    "whatIsIt": "A traditional macchiato is espresso topped with just a small amount of milk foam.",
+    "nutrition": {
+      "calories": "~20",
+      "sugar": "~1g",
+      "caffeine": "~150mg",
+      "milkType": "Small amount of milk",
+      "espressoShots": "1–2"
+    },
+    "flavorProfile": "Bold, intense, and only lightly softened by milk.",
+    "funFacts": [
+      "Macchiato means “marked” or “stained” in Italian.",
+      "Traditional macchiatos are much smaller than flavored chain versions.",
+      "Great for people who want mostly espresso."
+    ]
+  },
+  {
+    "id": "iced-coffee",
+    "name": "Iced Coffee",
+    "image": "/images/iced-coffee.jpg",
+    "shortDescription": "Freshly brewed coffee chilled and served over ice.",
+    "tagline": "Refreshing, familiar, and flexible",
+    "whatIsIt": "Iced coffee is regular brewed coffee that is cooled and poured over ice.",
+    "nutrition": {
+      "calories": "~5",
+      "sugar": "0g",
+      "caffeine": "~120mg",
+      "milkType": "Optional",
+      "espressoShots": "0"
+    },
+    "flavorProfile": "Refreshing and crisp, with familiar brewed coffee taste.",
+    "funFacts": [
+      "Different from cold brew.",
+      "Easy to customize with milk or syrups.",
+      "Popular year-round."
+    ]
+  },
+  {
+    "id": "chai-latte",
+    "name": "Chai Latte",
+    "image": "/images/chai-latte.jpg",
+    "shortDescription": "Spiced black tea blended with steamed milk.",
+    "tagline": "Spiced, sweet, and cozy",
+    "whatIsIt": "A chai latte is made with spiced black tea concentrate and steamed milk.",
+    "nutrition": {
+      "calories": "~240",
+      "sugar": "~32g",
+      "caffeine": "~95mg",
+      "milkType": "Whole (or substitute)",
+      "espressoShots": "0"
+    },
+    "flavorProfile": "Sweet and warmly spiced with cinnamon, cardamom, and clove notes.",
+    "funFacts": [
+      "Chai means tea.",
+      "Often made from black tea and spices.",
+      "A favorite non-coffee café drink."
+    ]
+  },
+  {
+    "id": "matcha-latte",
+    "name": "Matcha Latte",
+    "image": "/images/matcha-latte.jpg",
+    "shortDescription": "Japanese green tea powder whisked with steamed milk.",
+    "tagline": "Earthy, creamy, and vibrant",
+    "whatIsIt": "A matcha latte is made from powdered green tea whisked with milk for a bright, earthy drink.",
+    "nutrition": {
+      "calories": "~180",
+      "sugar": "~19g",
+      "caffeine": "~70mg",
+      "milkType": "Whole (or substitute)",
+      "espressoShots": "0"
+    },
+    "flavorProfile": "Earthy, grassy, slightly sweet, and creamy.",
+    "funFacts": [
+      "Matcha is finely ground green tea powder.",
+      "Traditionally used in Japanese tea ceremonies.",
+      "Contains caffeine but usually less than coffee."
+    ]
+  }
+]

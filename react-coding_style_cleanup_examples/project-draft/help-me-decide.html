@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Tim Carlson">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Help Me Decide | Coffee Finder</title>
+
+    <link rel="icon" type="image/png" href="images/coffee_cup.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+    <header class="bg-dark text-white text-center py-4">
+        <h1 class="mb-1">Help Me Decide ☕</h1>
+        <p class="mb-0">Answer a few questions and we’ll suggest a drink</p>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="index.html">Coffee Finder</a>
+
+                <!-- ✅ Hamburger button (shows on small screens) -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- ✅ Collapsible menu content -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="help-me-decide.html">Help Me Decide</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>    
+    </header>
+
+    <!-- Wider on desktop, still comfy on phone -->
+    <main class="container-xl py-5">
+
+        <!-- Mobile: stacked. Large: two columns -->
+        <div class="row g-5 align-items-start">
+
+            <!-- Form Column -->
+            <div class="col-12 col-lg-6">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+
+                        <h3 class="mb-4 text-center text-lg-start">Tell Us About Your Mood</h3>
+
+                        <!-- Temperature -->
+                        <div class="mb-3">
+                            <label class="form-label" for="tempOutside">Temperature Outside</label>
+                            <select class="form-select" id="tempOutside">
+                                <option selected>Select temperature...</option>
+                                <option>Cold</option>
+                                <option>Mild</option>
+                                <option>Hot</option>
+                            </select>
+                        </div>
+
+                        <!-- Time of Day -->
+                        <div class="mb-3">
+                            <label class="form-label" for="timeOfDay">Time of Day</label>
+                            <select class="form-select" id="timeOfDay">
+                                <option selected>Select time...</option>
+                                <option>Morning</option>
+                                <option>Afternoon</option>
+                                <option>Evening</option>
+                            </select>
+                        </div>
+
+                        <!-- Meal -->
+                        <div class="mb-3">
+                            <label class="form-label" for="meal">Having a meal with this?</label>
+                            <select class="form-select" id="meal">
+                                <option selected>No meal</option>
+                                <option>Breakfast</option>
+                                <option>Lunch</option>
+                                <option>Dinner</option>
+                            </select>
+                        </div>
+
+                        <!-- Snack -->
+                        <div class="mb-3">
+                            <label class="form-label" for="snack">Having a snack?</label>
+                            <select class="form-select" id="snack">
+                                <option selected>No snack</option>
+                                <option>Pastry</option>
+                                <option>Chocolate</option>
+                                <option>Fruit</option>
+                                <option>None</option>
+                            </select>
+                        </div>
+
+                        <!-- Energy -->
+                        <div class="mb-4">
+                            <label class="form-label" for="energy">Energy Level</label>
+                            <select class="form-select" id="energy">
+                                <option selected>Select energy...</option>
+                                <option>Very tired</option>
+                                <option>Normal</option>
+                                <option>Very energized</option>
+                            </select>
+                        </div>
+
+                        <!-- Fun attribute -->
+                        <div class="mb-4">
+                            <label class="form-label" for="adventurous">How adventurous are you feeling?</label>
+                            <select class="form-select" id="adventurous">
+                                <option selected>Select one...</option>
+                                <option>Keep it classic</option>
+                                <option>Open to something new</option>
+                                <option>Surprise me</option>
+                            </select>
+                        </div>
+
+                        <button class="btn btn-dark w-100">
+                            Suggest My Drink
+                        </button>
+
+                        <p class="text-muted small mt-3 mb-0">
+                            (Mockup) This button will eventually update the recommendation based on your selections.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recommendation Column -->
+            <div class="col-12 col-lg-6">
+                <div class="card border-success shadow-sm h-100">
+                    <div class="card-body text-center text-lg-start">
+
+                        <h3 class="text-success mb-3">We Recommend:</h3>
+
+                        <!-- Stacked layout: image on top (smaller), then text -->
+                        <div class="mb-3">
+                            <img src="images/iced-coffee.jpg" alt="Recommended drink"
+                                class="img-fluid rounded shadow-sm d-block mx-auto"
+                                style="width: 100%; max-width: 320px; aspect-ratio: 4 / 3; object-fit: cover;">
+                        </div>
+
+                        <h2 class="mb-2">Iced Latte</h2>
+
+                        <p class="mb-3">
+                            Since it’s warm outside and you need a caffeine boost, an Iced Latte offers smooth espresso
+                            flavor with refreshing chill.
+                        </p>
+
+                        <!-- “Reasoning” chips -->
+                        <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-lg-start">
+                            <span class="badge text-bg-success">Hot outside</span>
+                            <span class="badge text-bg-secondary">Needs caffeine</span>
+                            <span class="badge text-bg-secondary">Good with snacks</span>
+                        </div>
+
+
+                        <hr class="my-4">
+
+                        <h5 class="mb-2">Other good options</h5>
+                        <ul class="mb-0">
+                            <li>Cold Brew — bold and refreshing</li>
+                            <li>Americano — lighter calories, still strong</li>
+                            <li>Matcha Latte — smoother energy, less jittery</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="text-center mt-5">
+            <a href="index.html" class="btn btn-outline-dark">
+                ← Back to Drinks
+            </a>
+        </div>
+
+    </main>
+
+    <footer class="bg-light text-center py-3">
+        <p class
